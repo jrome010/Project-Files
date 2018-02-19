@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    
+    <form action="/Udemy Bootcamp" method="POST">
+        
+        <label for="first name area">First Name:</label>
+        <input id="first name area" type="text" placeholder="John" name="firstname" required>
+        <label for="last name area"> Last Name:</label>
+        <input type="text" id="last name area" placeholder="Smith" name="lastname" required>
+    
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender"id="female" value="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other">
+        </div>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="emailaddress" id="email" required>
+            <label for="passwordfield">Password:</label>
+            <input type="password" name="passwordvalue" id="passwordfield" pattern=".{6,12}" required title="Password must be between 6 and 12 characters">
+       </div>
+        
+        <div>
+            <label for="birthday">Birthday:</label>
+            <select name="month" id="birthday">
+                <option>Month</option>
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+            </select>
+            <select name="day" id="birthday">
+                <option>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="year" id="birthday">
+                    <option>Year</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+            </select>
+        </div>
+        
+        <label for="terms">I agree to the terms and conditions</label>
+        <input type="checkbox" name="termvalue" id="terms">
+        <div>
+            <input type="submit">
+        </div>
+        
+        
+    </form>
+   
+</body>
+</html>
