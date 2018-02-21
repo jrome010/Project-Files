@@ -1,0 +1,11 @@
+img {margin: 5%;
+width: 30%;
+float: left;
+}
+h1 { font-family: "Reenie Beanie";
+    font-size: 75px;
+    margin-left: 2%;
+    border-bottom: 2px solid black;
+    width: 33%;
+    padding: 20px;
+}
