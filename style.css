@@ -1,0 +1,18 @@
+body {background: url("laptop.jpg");
+    background-size: cover;
+}
+
+ul {border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+#list {width: 150px;
+}
+h1 {font-style:italic;
+    font-family: "scriptina";
+    font-size: 75px;
+}
+@font-face {
+        font-family:"scriptina";
+        src:url("scriptina.ttf")
+}
